@@ -9,7 +9,7 @@ public abstract class Zveryushka {
 
     public abstract  void runAway();
     public abstract  void speak();
- public void getScared(Zveryushka z){
+ public void getScared(Noisy z){
      System.out.println(z + " пугает " + this.name);
      speak();
      runAway();

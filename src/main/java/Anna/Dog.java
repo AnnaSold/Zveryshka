@@ -18,6 +18,7 @@ public class Dog extends Zveryushka implements Noisy {
 
     @Override
     public void beScarry() {
+        System.out.println(this.name + "пугает");
 
     }
 }
